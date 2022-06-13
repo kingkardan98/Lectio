@@ -5,6 +5,7 @@ Lectio is a Python program that manages a database (using PostgreSQL) to create,
 ## Necessary tools
 
 [PostgreSQL](https://www.postgresql.org/download/): the relational database used in this project, needed for use.
+
 [Python](https://www.python.org/downloads/): written using Python 3.10.4
 
 ## First steps
@@ -18,4 +19,5 @@ If you wish to use this program, be sure to create a file named 'database.ini' a
 		password = postgresPassword
 
 If you use a local installation of PostgreSQL, set *hostName* to *localhost*.
+
 *postgresUser* and *postgresPassword* are the credentials PostgreSQL made you create on installation. Default username is *postgres*.
